@@ -209,6 +209,7 @@ FROM SERVICE;
 UPDATE SERVICE
 SET SVC_EST_HOURS = SVC_EST_HOURS * 2
 WHERE SVC_NUM = 50;
+COMMIT;
 
 /*
 	Update with arithmetic expression
@@ -216,4 +217,4 @@ WHERE SVC_NUM = 50;
 
 UPDATE SERVICE 
 SET Service_Estimated_Price = Service_Estimated_Price + 1.05 ;
-Commit;
+COMMIT;
