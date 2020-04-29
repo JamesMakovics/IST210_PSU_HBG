@@ -1,0 +1,7 @@
+-- Increment version
+-- begin
+--   p_bumpVersion(aVersionNumber => '${config["version.number"]}', aVersionDescription => '${config["version.description"]}');
+-- end;
+-- /
+-- Recompile invalid current schema objects
+-- exec dbms_utility.compile_schema(schema => user,  compile_all => false);
