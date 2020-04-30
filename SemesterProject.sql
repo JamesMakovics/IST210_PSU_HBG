@@ -221,6 +221,6 @@ SET SVC_EST_PRICE = SVC_EST_PRICE + 1.05;
 COMMIT;
 
 /*
-James' SQL script to drop all tables
+James' SQL script to drop all tables FOR TESTING ONLY
 SELECT 'DROP TABLE "' || TABLE_NAME || '" CASCADE CONSTRAINTS;' FROM user_tables;
 */
