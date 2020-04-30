@@ -187,7 +187,6 @@ Where SVC_EST_PRICE Between 350 AND 0 ;
 
 /*
 	Select with table join and order by
-	VS code will mark the OR opperators as a syntax error because of its proofing algorithm
 */
 
 SELECT O.OWN_LAST_NAME ||','|| O.OWN_FIRST_NAME as OWNER_NAME, O.OWN_STREET ||','|| O.OWN_CITY ||','|| O.OWN_STATE AS OWNER_ADDRESS, V.VEH_MAKE ||' '|| V.VEH_MODEL AS MAKE_MODEL, V.VEH_PLATE ||','|| V.VEH_STATE AS PLATE_STATE
