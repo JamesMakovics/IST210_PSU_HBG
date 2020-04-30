@@ -181,8 +181,8 @@ WHERE VEH_COLOR NOT IN (SELECT VEH_COLOR FROM VEHICLE WHERE VEH_COLOR = 'BLUE');
 	Select with special operator
 */
 
-Select Svc_Num,Svc_name,Svc_Est_Hours,Svc_est_price
-From Service 
+SELECT SVC_NUM,SVC_NAME,SVC_EST_HOURS,SVC_EST_PRICE
+FROM SERVICE 
 Where SVC_EST_PRICE Between 350 AND 0 ;
 
 /*
